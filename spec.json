@@ -1,0 +1,23 @@
+[
+	{
+		"name": "alert"
+	},
+    {
+        "name": "setVehicle",
+        "params": {"json": "Json::Value"}
+    },
+    {
+        "name": "getIsCollide",
+        "returns": false
+    },
+    {
+        "name": "setCollide",
+        "params": {
+            "flag": false
+        }
+    },
+    {
+        "name": "VehToString",
+        "returns": "json"
+    }
+]
